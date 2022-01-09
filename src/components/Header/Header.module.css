@@ -1,0 +1,18 @@
+.header {
+    width: 100%;
+    display: flex;
+    justify-content: end;
+}
+
+.burger {
+    z-index: 1;
+    position: absolute;
+    right: 5px;
+    top: 5px;
+}
+
+.mobileMenu {
+    position: sticky;
+    width: 100vw;
+    height: 100vh;
+}
