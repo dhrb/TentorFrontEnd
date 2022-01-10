@@ -15,4 +15,12 @@
     position: sticky;
     width: 100vw;
     height: 100vh;
+    padding: 5px;
+
+}
+.mobileMenu p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    margin: 20px 0;
 }
