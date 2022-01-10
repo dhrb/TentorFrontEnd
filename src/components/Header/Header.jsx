@@ -1,4 +1,4 @@
-import {useState} from "react";
+import { useState } from 'react';
 
 import burger from '../../assets/burger.svg';
 import logo from '../../assets/logo.svg';
@@ -42,5 +42,5 @@ export default function Header () {
             </div>
           </aside>
         )}
-      </header>)
+      </header>);
 }
