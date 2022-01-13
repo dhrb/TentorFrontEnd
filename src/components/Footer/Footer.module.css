@@ -1,0 +1,30 @@
+.footer {
+    background-color: #0084BD;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    height: auto;
+    padding: 1%;
+    font-size: 13px;
+}
+
+span {
+    color: whitesmoke;
+}
+
+.footerArrow:hover {
+    border: 1px solid darkslateblue;
+    cursor: pointer;
+}
+
+.footerPhoneBtn {
+    border: none;
+    background-color: #0084BD;
+    color: whitesmoke;
+}
+
+.footerPhoneBtn:hover {
+    color: darkslateblue;
+    cursor: pointer;
+}

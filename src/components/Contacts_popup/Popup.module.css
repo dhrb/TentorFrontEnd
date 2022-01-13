@@ -1,0 +1,48 @@
+.popup {
+    position: fixed;
+    right: 5%;
+    width: 18%;
+    height: 20%;
+
+    display: flex;
+    align-items: center;
+    background-color: lightblue;
+    padding: 0.5%;
+    opacity: .94;
+    border: 1px solid black;
+    border-radius: 12px;
+}
+
+a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #0084BD;
+}
+
+a:hover {
+    color: whitesmoke;
+    
+}
+
+.tgImg {
+    display: flex;
+    align-items: center;
+    width: 40px;
+    height: auto;
+}
+
+.viberImg {
+    display: flex;
+    align-items: center;
+    width: 25px;
+    height: auto;
+}
+
+.closePopupBtn{
+    cursor: pointer;
+    width: 10%;
+    height: 10%;
+    margin-bottom: 2%;
+}
+
