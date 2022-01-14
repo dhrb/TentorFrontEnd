@@ -7,7 +7,7 @@ import closeBtnImg from './../../assets/closeBtnImg.svg';
 const Popup = (props) => {
     return (props.trigger) ? (
       <div className = {popupCss.popup}>
-        <div classname = {popupCss.popupInner}>
+        <div className = {popupCss.popupInner}>
             <img 
                 src = {closeBtnImg}
                 onClick = {() => props.setTrigger (false)}

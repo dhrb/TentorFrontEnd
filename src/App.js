@@ -1,13 +1,12 @@
 // import Header from './components/Header/Header';
 import Footer from './components/Footer/Footer';
-import DesktopHeader from './components/DesktopHeader/DesktopHeader'
+// import Header from './components/Header/Header';
 
 
 function App() {
   return (
     <div>
       {/* <Header/> */}
-      <DesktopHeader/>
       <Footer/>
     </div>
   );
