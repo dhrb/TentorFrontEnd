@@ -1,12 +1,12 @@
-import popupCss from "./Popup.module.css";
-import React from 'react';
-import tgImg from './../../assets/tgContact.png'
-import viberImg from './../../assets/viberContact.png'
-import closeBtnImg from './../../assets/closeBtnImg.svg'
+import popupCss from './Popup.module.css';
+import tgImg from './../../assets/tgContact.png';
+import viberImg from './../../assets/viberContact.png';
+import closeBtnImg from './../../assets/closeBtnImg.svg';
+
 
 const Popup = (props) => {
     return (props.trigger) ? (
-      <div className = { popupCss.popup }>
+      <div className = {popupCss.popup}>
         <div classname = {popupCss.popupInner}>
             <img 
                 src = {closeBtnImg}
@@ -53,7 +53,7 @@ const Popup = (props) => {
 
         </div>
       </div>
-    ) : "" ;
+    ) : '' ;
   }
 
 export default Popup;
