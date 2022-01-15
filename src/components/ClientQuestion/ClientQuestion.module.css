@@ -1,0 +1,24 @@
+.clienQuestionForm {
+    display: flex;
+    margin: 80px 65px;
+}
+
+.formTopText {
+    font-size: 30px;
+    font-weight: 700;
+    top: 80px;
+}
+
+.ClientInfoForm {
+
+}
+
+
+
+.inputForm {
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: 1px solid #333333;
+    margin-bottom: 80px;
+}
